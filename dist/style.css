@@ -1,0 +1,93 @@
+h1 {
+  text-align: center;
+}
+
+#root {
+  margin: 0 auto;
+  width: 20%;
+  display: grid;
+  grid-template: 
+    'display display display display'
+    'clear clear divide multiply'
+    'seven eight nine subtract'
+    'four five six add'
+    'one two three equal'
+    'zero zero decimal equal';
+  row-gap: 5px;
+  column-gap: 5px
+}
+#display {
+  grid-area: display;
+  background-color: lightGrey;
+  text-align: right;
+  padding:5px 5px 5px 5px;
+}
+#equals {
+  grid-area: equal;
+  border: none;
+}
+#clear {
+  grid-area: clear;
+  border: none;
+}
+#divide {
+  grid-area: divide;
+  border: none;
+}
+#add {
+  grid-area: add;
+  border: none;
+}
+#subtract {
+  grid-area: subtract;
+  border: none;
+}
+#decimal {
+  grid-area: decimal;
+  border: none;
+}
+#multiply {
+  grid-area: multiply;
+  border: none;
+}
+
+#zero {
+  grid-area: zero;
+  border: none;
+}
+#one {
+  grid-area: one;
+  border: none;
+}
+#two {
+  grid-area: two;
+  border: none;
+}
+#three {
+  grid-area: three;
+  border: none;
+}
+#four {
+  grid-area: four;
+  border: none;
+}
+#five {
+  grid-area: five;
+  border: none;
+}
+#six {
+  grid-area: six;
+  border: none;
+}
+#seven {
+  grid-area: seven;
+  border: none;
+}
+#eight {
+  grid-area: eight;
+  border: none;
+}
+#nine {
+  grid-area: nine;
+  border: none;
+}
